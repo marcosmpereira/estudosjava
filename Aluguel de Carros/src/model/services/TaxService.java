@@ -1,2 +1,5 @@
-package model.services;public interface TaxService {
+package model.services;
+
+public interface TaxService {
+    double tax(double amount);
 }
